@@ -9,6 +9,7 @@ public class TestController {
 
         @GetMapping("/test")
         public String test(){
+                int a = 0;
                 return "test";
         }
 }
